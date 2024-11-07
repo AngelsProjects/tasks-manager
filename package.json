@@ -1,0 +1,33 @@
+{
+  "name": "tasks-management",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tasks management app",
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "start:frontend": "pnpm --filter frontend start",
+    "start:backend": "pnpm --filter backend start",
+    "dev:frontend": "pnpm --filter frontend dev",
+    "dev:backend": "pnpm --filter backend dev",
+    "build:frontend": "pnpm --filter frontend build",
+    "build:backend": "pnpm --filter backend build",
+    "build": "pnpm build:frontend && pnpm build:backend",
+    "test:frontend": "pnpm --filter frontend test",
+    "test:backend": "pnpm --filter backend test",
+    "test": "pnpm test:frontend && pnpm test:backend",
+    "lint:frontend": "pnpm --filter frontend lint",
+    "lint:backend": "pnpm --filter backend lint",
+    "lint": "pnpm lint:frontend && pnpm lint:backend",
+    "start": "pnpm start:frontend & pnpm start:backend",
+    "dev": "pnpm dev:frontend & pnpm dev:backend",
+    "snyk:test": "snyk test",
+    "snyk:monitor": "snyk monitor",
+    "snyk:fix": "snyk wizard"
+  },
+  "keywords": [],
+  "author": "Angel Arciniega",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  }
+}

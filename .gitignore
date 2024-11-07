@@ -1,0 +1,57 @@
+# Node modules
+node_modules/
+.pnpm-debug.log
+pnpm-lock.yaml
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/
+frontend/dist/
+backend/dist/
+frontend/build/
+backend/build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache files
+.cache/
+frontend/.cache/
+backend/.cache/
+frontend/.vite/
+backend/.vite/
+
+# Typescript
+*.tsbuildinfo
+
+# ESLint and Prettier files
+.eslintcache
+.prettierignore
+.prettiercache
+
+# Tailwind config output (if used)
+tailwind.config.js
+postcss.config.js
+
+# Temporary files
+tmp/
+temp/
