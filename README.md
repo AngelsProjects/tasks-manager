@@ -70,7 +70,7 @@ interface Task {
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/AngelsProjects/task-manager.git
+    git clone https://github.com/AngelsProjects/tasks-manager.git
     ```
 
 2. **Install dependencies**:
