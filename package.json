@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Tasks management app",
-  "packageManager": "pnpm@9.0.0",
+  "packageManager": "pnpm@9.12.3",
   "scripts": {
     "start:frontend": "pnpm --filter frontend start",
     "start:backend": "pnpm --filter backend start",
